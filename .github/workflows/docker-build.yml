@@ -17,3 +17,4 @@ jobs:
           registries: |-
             ${{ secrets.ALIYUN_SKYLARK_REGISTRY }}
             ghcr.io,byzanteam,${{ github.repository_owner }},${{ github.token }}
+          dockerfile: ./Dockerfile
